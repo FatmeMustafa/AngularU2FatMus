@@ -22,7 +22,7 @@ export class AuthService {
   }
 
   public logout() {
-    localStorage.clear();
+    localStorage.clear();                       //clears out local storage
     this.loggedUser = undefined;
   }
 }
